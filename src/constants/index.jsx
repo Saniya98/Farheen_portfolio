@@ -4,8 +4,10 @@ import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
-import eshop3  from "../assets/eshop-3.jpg"
-import music1  from "../assets/music1.jpg"
+import eshop3  from "../assets/eshop-3.jpg";
+import music1  from "../assets/music1.jpg";
+import housing from "../assets/housing.jpg"
+import food from "../assets/food.jpg"
 import personImage from "../assets/testimonial.webp";
 import portfolio from "../assets/portfolio.jpg"
 import book from "../assets/book2.jpg"
@@ -15,14 +17,14 @@ import {
   RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
-  RiNodeTree,
+  RiNodeTree
 } from "@remixicon/react";
 import {
   RiDatabaseLine,
   RiCodeSSlashLine,
   RiGitBranchLine,
 } from "@remixicon/react";
-import { SiFigma, SiExpress, SiPostman, SiPostgresql, SiPython } from 'react-icons/si';
+import { SiFigma, SiExpress, SiPostman, SiPostgresql, SiPython, SiAngular } from 'react-icons/si';
 
 
 export const NAVIGATION_LINKS = [
@@ -34,10 +36,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "Saniya Farheen",
+  name: "SANIYA FARHEEN",
   role: "Full Stack Developer",
   subheading:
-    "With 2 years of full-stack development experience, I build efficient and scalable web applications. Actively seeking entry-level opportunities in the current job market and eager to contribute to impactful projects.",
+    "With 2 years of hands-on experience building dynamic and scalable web applications, I thrive on creating clean, efficient solutions across the stack. Currently exploring junior developer roles where I can contribute meaningfully and continue growing through real-world impact.",
 };
 
 export const PROJECTS = [
@@ -65,7 +67,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
     techStack: ["React", "Tailwind CSS","GSAP"],
     imgSrc: portfolio,
-    link: "https://myportfolio.com",
+    link: "https://github.com/Saniya98/My_Portfolio",
   },
   {
     id: 4,
@@ -78,21 +80,21 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Task Management App",
+    title: "HomeSearchr",
     description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
+      "Designed and developed a user-friendly house location app to help users discover rental or sale listings based on their preferences and geolocation",
     techStack: ["Angular", "Firebase", "Material UI"],
-    imgSrc: project5,
+    imgSrc: housing,
     link: "https://example-taskapp.com",
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "GrubHive",
     description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
-    link: "https://example-learningplatform.com",
+      "Built a fully functional food ordering web application using the MERN stack with Stripe integration.",
+    techStack: ["React","Node.js", "MongoDB", "Express"],
+    imgSrc: food,
+    link: "https://github.com/Saniya98/GrubHive",
   },
 ];
 
@@ -101,6 +103,10 @@ export const SKILLS = [
     name: "React",
     icon: <RiReactjsLine className="text-blue-400" />,
   },
+  {
+  name: "Angular",
+  icon: <SiAngular title="Angular" className="text-2xl" style={{ color: '#DD0031' }}/>
+   },
   {
     name: "JavaScript",
     icon: <RiJavascriptLine className="text-yellow-500" />,
@@ -133,10 +139,10 @@ export const SKILLS = [
     name: "HTML5",
     icon: <RiHtml5Line className="text-orange-600" />,
   },
-  {
-    name: "CSS3",
-    icon: <RiCss3Line className="text-blue-500" />,
-  },
+  // {
+  //   name: "CSS3",
+  //   icon: <RiCss3Line className="text-blue-500" />,
+  // },
 
   {
     name: "Tailwind CSS",

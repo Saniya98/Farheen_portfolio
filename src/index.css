@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 :root{
-  font-family:"Noto sans", sans-serif;
+  font-family:"Open Sans", sans-serif;
   background-color: rgb(24 4 23);
   color: white;
 }
+
 
 .bg-image{
   background-image: url("assets/noise.webp");

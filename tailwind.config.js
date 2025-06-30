@@ -9,3 +9,15 @@ export default {
   },
   plugins: [],
 }
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        opensans: ['Open Sans', 'sans-serif'],
+        spacegrotesk: ['Space Grotesk', 'sans-serif'],
+      },
+    },
+  },
+};
