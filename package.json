@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://your-Saniya98.github.io/My_Portfolio",
-
+"homepage": "https://Saniya98.github.io/Farheen_portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@remixicon/react": "^4.6.0",
