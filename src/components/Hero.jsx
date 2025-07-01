@@ -8,8 +8,8 @@ const Hero = () => {
 
   return (
     <section
-      className="min-h-screen flex flex-col items-center justify-center px-4 text-center"
-      ref={heroRef}
+    ref={heroRef}
+    className="min-h-screen flex flex-col items-center justify-center px-4 text-center pt-24 lg:pt-10"
     >
       <div className="mt-8 lg:mt-20 max-w-4xl">
         <h1 className="text-4xl lg:text-7xl font-semibold uppercase font-poppins">
